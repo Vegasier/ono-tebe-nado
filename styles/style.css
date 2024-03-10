@@ -1,38 +1,82 @@
 .header {
-position: absolute;
-width: 1052px;
-height: 105px;
-margin-left: 24px;
-margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1052px;
+    height: 105px;
+    margin-left: 24px;
+    margin-top: 92px;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: circle;
+}
+
+.header__menu-item_active {
+    list-style: none;
+}
+
+.header__menu-item_active .header__menu-link {
+    border: none;
+}
+
+.header__menu-link {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+ }
+
+.header__logo {
+    display: block;
+    width: 129.11px;
+}
+
+.adress {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+}
+
+.contact {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+.header__adress {
+    font-style: normal;
 }
 
 .jambotron {
-position: absolute;
-width: 1100px;
-height: 757px;
-margin-top: 293px;
+    position: absolute;
+    width: 1100px;
+    height: 757px;
+    margin-top: 293px;
 }
 
 .lots {
-position: absolute;
-width: 1052px;
-height: 692px;
-margin-left: 24px;
-margin-top: 1229px; 
+    position: absolute;
+    width: 1052px;
+    height: 692px;
+    margin-left: 24px;
+    margin-top: 1229px; 
 }
 
 .about {
-position: absolute;
-width: 1052px;
-height: 595px;
-margin-left: 24px;
-margin-top: 2067px;
+    position: absolute;
+    width: 1052px;
+    height: 595px;
+    margin-left: 24px;
+    margin-top: 2067px;
 }
 
 .footer {
-position: absolute;
-width: 1000px;
-height: 98px;
-margin-left: 50px;
-margin-top: 2842px;
+    position: absolute;
+    width: 1000px;
+    height: 98px;
+    margin-left: 50px;
+    margin-top: 2842px;
 }
