@@ -1,14 +1,14 @@
 .header {
-    width: 1052px;
-    height: 105px;
+    max-width: 1052px;
+    max-height: 105px;
     margin: 92px 24px 96px;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
 }
 
 .header__menu {
-    width: 391px;
-    height: 22px;
+    min-width: 391px;
+    min-height: 22px;
     margin-top: 44px;
     margin-left: 26px;
 }
@@ -37,20 +37,20 @@
 
 .header__logo {
     display: block;
-    width: 148px;
-    height: 105px;
+    min-width: 148px;
+    min-height: 105px;
     margin-left: 46px;
     margin-right: 178px;
 }
 
 .header__logo-image {
-    width: 128px;
-    height: 107px;
+    max-width: 128px;
+    min-height: 107px;
 }
 
 .adress {
-    width: 240px;
-    height: 98px;
+    min-width: 240px;
+    min-height: 98px;
     margin-top: 6px;
     font-size: 18px;
     font-weight: 400;
@@ -67,20 +67,22 @@
 }
 
 .jambotron {
-    width: 1100px;
-    height: 757px;
+    position: relative;
+    min-width: 1100px;
+    min-height: 757px;
     margin-top: 96px;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-
 .jambotron__title {
     display: flex;
     flex-direction: column;
+    padding-top: 165px;
+    padding-left: 50px;
+    padding-right: 50px;
     gap: 6px;
-    padding: 165px 50px 237px;
     color: white;
     font-weight: 700;
     font-size: 100px;
@@ -88,15 +90,55 @@
 }
 
 .letter-spacing-point-three {
-    letter-spacing: 30px;
+    letter-spacing: 33px;
+}
+
+.letter-spacing-point-six {
+    letter-spacing: 60px;
+}
+
+.letter-spacing-point-one {
+    letter-spacing: 15px;
 }
 
 .text_center {
     text-align: center;
 }
 
-.text_right{
+.text_right {
     text-align: right;
+}
+
+.subline {
+    display: flex;
+    justify-content: space-between;
+    min-width: 637px;
+    min-height: 28px;
+    padding-top: 138px;
+    padding-left: 80px;
+}
+
+.subline__text {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 18px;
+}
+
+.bet-button {
+    position: relative;
+    bottom: 12px;
+    right: 50px;
+    min-width: 256px;
+    min-height: 51px;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: transparent;
+    border-color: white;
 }
 
 .lots {
