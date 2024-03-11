@@ -67,10 +67,36 @@
 }
 
 .jambotron {
-    position: absolute;
     width: 1100px;
     height: 757px;
-    margin-top: 293px;
+    margin-top: 96px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.jambotron__title {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 165px 50px 237px;
+    color: white;
+    font-weight: 700;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.letter-spacing-point-three {
+    letter-spacing: 30px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right{
+    text-align: right;
 }
 
 .lots {
