@@ -241,16 +241,14 @@
     word-spacing: 0.6px;
 }
 
-.second-paragraph {
+.about__text:last-child {
     padding-top: 20px;
 }
 
 .footer {
     padding: 180px 50px 88px;
     display: grid;
-    grid-template-columns: 240px 149px 240px;
-    align-content: center;
-    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .footer__menu-list {
@@ -273,6 +271,7 @@
  .footer__social-list-item {
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     gap: 48px;
     list-style: none;
  }
