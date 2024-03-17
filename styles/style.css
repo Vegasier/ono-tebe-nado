@@ -73,14 +73,7 @@
     font-size: 100px;
     line-height: 115px;
     text-transform: uppercase;
-}
-
-.no-letter-spacing {
-    letter-spacing: 0;
-}
-
-.letter-spacing-extended {
-    letter-spacing: 0.6em;
+    letter-spacing: 4px;
 }
 
 .text_center {
@@ -89,6 +82,18 @@
 
 .text_right {
     text-align: right;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
+}
+
+.text_right .letter-spacing-extended {
+    letter-spacing: 35px;
 }
 
 .subline {
@@ -235,14 +240,12 @@
 }
 
 .about__text {
+    display: grid;
     grid-column-start: 2;
     font-size: 20px;
     line-height: 24px;
     word-spacing: 0.6px;
-}
-
-.about__text:last-child {
-    padding-top: 20px;
+    gap: 24px;
 }
 
 .footer {
