@@ -1,0 +1,20 @@
+{
+  "name": "ono-tebe-nado",
+  "version": "1.0.0",
+  "description": "Приветствую, путник!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Привет!'",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "stylelint \"**/*.css\"",
+    "lintfix": "cross-env FORCE_COLOR=true stylelint --fix \"**/*.css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.3.0"
+  }
+}

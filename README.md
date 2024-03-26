@@ -1,9 +1,8 @@
-Приветствую, путник!
-
+Приветствую, путник!  
+Это мой первый учебный проект.
+17.03.2024 проект прошёл код-ревью.
+После указанной выше даты я планирую вносить в этот проект различные улучшения. В основном это будет делаться в рамках эксперимента.  
 Ссылка на репозиторий:
-https://github.com/Vegasier/ono-tebe-nado
-
-https://github.com/Vegasier/ono-tebe-nado.git
-
+https://github.com/Vegasier/ono-tebe-nado.git  
 Ссылка на GitHub Pages:
 https://vegasier.github.io/ono-tebe-nado/
